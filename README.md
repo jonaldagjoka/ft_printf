@@ -1,6 +1,6 @@
 # ft_printf
 
-*This project has been created as part of the 42 curriculum by jgjoka.*
+*This project has been created by jgjoka.*
 
 ## Description
 
@@ -8,7 +8,6 @@ The ft_printf project is a recreation of the standard C library function `printf
 
 This project implements a custom version of `printf()` capable of formatting and printing various data types, including characters, strings, pointers, integers, and hexadecimal numbers — without implementing the original buffering system from libc.
 
-Once completed, this library (`libftprintf.a`) can be integrated with your libft for use in future 42 projects.
 
 ### Key Learning Objectives
 - Understanding and implementing variadic functions in C
@@ -140,28 +139,11 @@ The decision to avoid buffer management simplifies the implementation while stil
 - Base conversion algorithms and hexadecimal representation
 - Format string parsing techniques
 
-### AI Usage
-
-AI tools were **not used** for implementing the core functionality of this project, in accordance with 42's educational philosophy emphasizing foundational learning through personal effort and peer collaboration.
-
-The learning approach focused on:
-- Manual implementation and debugging of all conversion functions
-- Peer discussions to understand different approaches to variadic functions
-- Reading documentation and man pages for printf behavior
-- Testing and validating behavior against the standard printf() function
-- Iterative problem-solving when handling edge cases (NULL pointers, negative numbers, etc.)
-
 This hands-on approach ensured deep understanding of:
 - Variadic function mechanics in C
 - Type conversion and formatting
 - String manipulation and number base conversion
 - Building modular, extensible code architectures
-
-These are essential skills for the 42 curriculum and professional C programming.
-
-## Repository
-
-GitHub Repository: [git@github.com:42learners/Common-Core---Printf-fe20574d-d45a-44b8-b086-2ee68ee7a340.git](https://github.com/42learners/Common-Core---Printf-fe20574d-d45a-44b8-b086-2ee68ee7a340)
 
 ## Author
 
